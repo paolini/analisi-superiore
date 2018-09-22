@@ -98,17 +98,17 @@ distributions of various physical quantities. Hence generalized
 functions are also called distributions.
 
 Generalized functions were first introduced at the end of the 1920-s
-by P.A.M. Dirac (see [1]) in his research on quantum mechanics, in
+by P.A.M. Dirac in his research on quantum mechanics, in
 which he made systematic use of the concept of the $\delta$-function and its
 derivatives (see Delta-function). The foundations of the mathematical
-theory of generalized functions were laid by S.L. Sobolev [2] in 1936
+theory of generalized functions were laid by S.L. Sobolev in 1936
 by solving the Cauchy problem for hyperbolic equations, while in the
-1950-s L. Schwartz (see [3]) gave a systematic account of the theory
+1950-s L. Schwartz gave a systematic account of the theory
 of generalized functions and indicated many applications. The theory
 was then intensively developed by many mathematicians and theoretical
 physicists, mainly in connection with the needs of theoretical and
-mathematical physics and the theory of differential equations (see
-[4]–[7]). The theory of generalized functions has made great advances,
+mathematical physics and the theory of differential equations.
+The theory of generalized functions has made great advances,
 has numerous applications, and is extensively used in mathematics,
 physics and engineering.
 \end{quote}
@@ -130,7 +130,7 @@ funzioni generalizzate $f$ dobbiamo imporre alle funzioni $\phi$ di
 variare in una classe più piccola possibile di funzioni regolari: si
 sceglie dunque $\phi \in C_c^\infty(\Omega)$, le funzioni derivabili
 infinite volte e a supporto compatto nello spazio di riferimento
-$\Omega\subset \RR^n$. Il funzionale $\phi \mapsto \int f\phi$ è
+$\Omega\subset \RR^n$. Il funzionale $\phi \mapsto \phi[f]\int f\phi$ è
 chiaramente lineare in $\phi$, vorremmo però anche esprimere il fatto
 che tale funzionale deve essere continuo. Per fare ciò
 dobbiamo avere una topologia sullo spazio $C_c^\infty(\Omega)$.
@@ -149,7 +149,7 @@ derivate. Per questo è sufficiente definire le distribuzioni come
 funzionali lineari $f\colon C_c^\infty(\Omega)\to \CC$ e imporre le
 formule di integrazione per parti:
 \[
-\frac{\partial}{\partial x_i}f [\phi] = -f(\frac{\partial}{\partial x_i}\phi)
+\frac{\partial f}{\partial x_i} [\phi] = -f\left(\frac{\partial}{\partial x_i}\phi\right)
 \]
 lasciandosi guidare dal caso delle funzioni derivabili
 \[
@@ -4720,7 +4720,7 @@ annulla su tutto $\CC^n$.
 \end{proof}
 
 Definiamo la \emph{trasformata di Fourier-Laplace}
-\marginpar{$\FL[\phi]$}
+\marginpar{$\FL{[\phi]}$}
 di una funzione
 $\phi\in \D$ come
 l'estensione della trasformata di Fourier a tutto lo spazio complesso
@@ -4731,7 +4731,7 @@ $\CC^n$:
 Possiamo estendere la definizione appena data a tutte le distribuzioni
 a supporto compatto.
 Se $g\in \E'$ definiamo:
-\marginpar{$\FL[g]$}
+\marginpar{$\FL{[g]}$}
 \begin{equation}\label{eq:Cfourier_dist}
 \FL[g](z) \defeq g[\exp_{-iz}]
 \end{equation}
