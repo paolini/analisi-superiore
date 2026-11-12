@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/83971509.svg)](https://doi.org/10.5281/zenodo.24167587)
+
 Questo repository contiene gli appunti del mio (emanuele.paolini@unipi.it) corso di Analisi Superiore tenuto nell'anno 2016-2017 all'università di Pisa
 
 Gli appunti sono scritti in LaTeX e sono messi liberamente a disposizione su github https://github.com/paolini/AnalisiSuperiore/.
