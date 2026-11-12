@@ -7,13 +7,13 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: compile LaTeX project
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: AnalisiSuperiore.tex
       - name: upload PDF artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: AnalisiSuperiore.pdf
           path: AnalisiSuperiore.pdf
@@ -23,7 +23,7 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/') # make release on tag push
     steps:
       - name: download PDF artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: AnalisiSuperiore.pdf
       - name: create Release

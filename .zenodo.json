@@ -1,0 +1,23 @@
+{
+  "upload_type": "lesson",
+  "title": "Appunti di Analisi Superiore",
+  "description": "<p>Appunti del corso di Analisi Superiore tenuto da Emanuele Paolini all'Università di Pisa nell'anno accademico 2016-2017: spazi vettoriali topologici, distribuzioni, trasformata di Fourier, applicazioni alle EDP (versione 0.9, 1 ottobre 2017).</p><p>Il PDF degli appunti è allegato alla release su GitHub; l'archivio contiene i sorgenti LaTeX.</p><p>Lecture notes (in Italian) of the course <em>Analisi Superiore</em> (Advanced Analysis), University of Pisa, academic year 2016-2017.</p>",
+  "creators": [
+    {
+      "name": "Paolini, Emanuele",
+      "affiliation": "Università di Pisa",
+      "orcid": "0000-0001-7021-7537"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "ita",
+  "keywords": [
+    "lecture notes",
+    "distributions",
+    "topological vector spaces",
+    "Fourier transform",
+    "Sobolev spaces",
+    "elliptic equations",
+    "partial differential equations"
+  ]
+}
