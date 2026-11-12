@@ -12,7 +12,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: AnalisiSuperiore.tex
-          texlive_version: 2025 # TeX Live 2026 fails with "\c@lemma already defined"
+          texlive_version: 2024 # TeX Live 2026 fails with "\c@lemma already defined"
       - name: upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
